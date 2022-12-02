@@ -1,0 +1,119 @@
+.groups_wrapper {
+    position: absolute;
+    left: 22rem;
+    top: 2rem;
+}
+
+.groups1_table2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+.groups1_table2_titles {
+    display: flex;
+    gap: 41rem;
+    margin-bottom: 28px;
+    margin-top: -3rem;
+}
+
+.groups1_table2_titles_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.groups1_table2_titles_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.groups1_table2_titles2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.groups1_table2_titles2_title_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.groups1_table2_titles2_title_text2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #838383;
+}
+
+/* cards */
+
+
+.table_card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+.table_card_card {
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    background: #FEE4CB;
+    border-radius: 25px;
+    width: 287px;
+    height: 221px;
+    padding: 17px 24px;
+    margin-top: 30px;
+}
+
+.card2 {
+    background: #DBF6FD;
+}
+
+.card_top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.card_titles_titles {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+.card_titles_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6F6F6F;
+    margin-bottom: 12px;
+}
+
+.card_bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}

@@ -1,0 +1,27 @@
+.home_wrapper {
+    display: flex;
+    position: absolute;
+    left: 22rem;
+    top: 7rem;
+}
+
+.table1 {
+    display: flex;
+    gap: 200px;
+}
+
+#dates {
+    padding: 12px 20px;
+    background: #F9FBFF;
+    border-radius: 10px;
+}
+
+.rasm1 {
+    position: relative;
+    left: 40px;
+    width: 690px;
+}
+
+.rasm2 {
+    width: 400px;
+}

@@ -1,0 +1,50 @@
+.learn_wrapper {
+    position: absolute;
+    left: 22rem;
+    top: 2rem;
+}
+
+.table_top {
+    display: flex;
+    gap: 25rem;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.input-wrapper {
+    gap: 30px;
+}
+
+.table {
+    margin-top: 4rem;
+    margin-left: 5rem;
+}
+
+table {
+    margin-bottom: 50px;
+}
+
+th {
+    margin-right: 20px;
+}
+
+td {
+    padding-right: 80px;
+    padding-top: 35px;
+}
+
+button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #008767;
+    height: 29px;
+    left: 1214.47px;
+    top: 489px;
+    background: rgba(22, 192, 152, 0.38);
+    border: 1px solid #00B087;
+    border-radius: 4px;
+    padding: 4px 15px;
+    cursor: pointer;
+}
