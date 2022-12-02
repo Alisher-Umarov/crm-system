@@ -18,3 +18,9 @@ a {
 input {
     border: 1px solid #ccc !important;
 }
+
+.res_wrap {
+    position: absolute;
+    top: 10rem;
+    left: 40rem;
+}

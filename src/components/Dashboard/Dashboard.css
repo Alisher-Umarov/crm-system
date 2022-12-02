@@ -1,5 +1,5 @@
 .dashboard_wrapper {
-    width: 340px;
+    width: 300px;
     background: #FFFFFF;
     box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
     margin: -2.2rem 20px 0 20px;
@@ -31,20 +31,30 @@
     display: flex;
     gap: 16px;
     cursor: pointer;
+    align-items: center;
 }
 
-.dashboard_table_table h3 a {
+.dashboard_table_table h3{
     color: #9197B3;
 }
 
-.purple {
+.dashboard_table_table:active {
     background: #5932EA;
     border-radius: 8px;
     padding: 13px;
     display: flex;
     gap: 16px;
     cursor: pointer;
-}
+} 
+
+/* .purple {
+    background: #5932EA;
+    border-radius: 8px;
+    padding: 13px;
+    display: flex;
+    gap: 16px;
+    cursor: pointer;
+} */
 
 .time_wrap {
     background: linear-gradient(107.91deg, #EAABF0 7.37%, #4623E9 95.19%);

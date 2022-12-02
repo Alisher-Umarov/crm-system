@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import setting from '../../assets/icon/setting.png'
-import dashicon1 from '../../assets/icon/dashicon1.png'
+import dashicon1 from '../../assets/icon/dashicon11.svg'
 import dashicon2 from '../../assets/icon/dashicon2.png'
 import dashicon3 from '../../assets/icon/dashicon3.png'
 import dashicon4 from '../../assets/icon/dashicon4.png'
@@ -19,30 +19,42 @@ const Dashboard = () => {
             </div>
 
             <div className='dashboard_table'>
-                <div className='dashboard_table_table purple'>
-                    <img src={dashicon1} alt="icon" />
-                    <h3><Link to={'/'}>Dashboard</Link></h3>
-                </div>
-                <div className='dashboard_table_table'>
-                    <img src={dashicon2} alt="icon" />
-                    <h3><Link to={'/guruhlar'}>Guruhlar</Link></h3>
-                </div>
-                <div className='dashboard_table_table'>
-                    <img src={dashicon3} alt="icon" />
-                    <h3><Link to={'/oquvchilar'}>O’quvchilar</Link></h3>
-                </div>
-                <div className='dashboard_table_table'>
-                    <img src={dashicon4} alt="icon" />
-                    <h3><Link to={'bugalteriya'}>Bug’alteriya</Link></h3>
-                </div>
-                <div className='dashboard_table_table'>
-                    <img src={dashicon5} alt="icon" />
-                    <h3><Link to={'sozlamalar'}>Sozlamalar</Link></h3>
-                </div>
-                <div className='dashboard_table_table'>
-                    <img src={dashicon6} alt="icon" />
-                    <h3><Link to={'yordam'}>Yordam</Link></h3>
-                </div>
+                <Link to={'/'}>
+                    <div className='dashboard_table_table purple'>
+                        <img src={dashicon1} alt="icon" />
+                        <h3>Dashboard</h3>
+                    </div>
+                </Link>
+                <Link to={'/guruhlar'}>
+                    <div className='dashboard_table_table'>
+                        <img src={dashicon2} alt="icon" />
+                        <h3>Guruhlar</h3>
+                    </div>
+                </Link>
+                <Link to={'/oquvchilar'}>
+                    <div className='dashboard_table_table'>
+                        <img src={dashicon3} alt="icon" />
+                        <h3>O’quvchilar</h3>
+                    </div>
+                </Link>
+                <Link to={'bugalteriya'}>
+                    <div className='dashboard_table_table'>
+                        <img src={dashicon4} alt="icon" />
+                        <h3>Bug’alteriya</h3>
+                    </div>
+                </Link>
+                <Link to={'sozlamalar'}>
+                    <div className='dashboard_table_table'>
+                        <img src={dashicon5} alt="icon" />
+                        <h3>Sozlamalar</h3>
+                    </div>
+                </Link>
+                <Link to={'yordam'}>
+                    <div className='dashboard_table_table'>
+                        <img src={dashicon6} alt="icon" />
+                        <h3>Yordam</h3>
+                    </div>
+                </Link>
             </div>
             <div className='time_wrap'>
                 <h1 className='time'>14 : 38 : 15</h1>
